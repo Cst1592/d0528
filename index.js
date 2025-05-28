@@ -1,1 +1,1 @@
-console.log(process.env.PASSWORD);
+console.log(`[INFO] PASSWORD environment variable is ${process.env.PASSWORD ? 'set' : 'not set'}.`);
